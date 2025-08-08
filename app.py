@@ -11,10 +11,10 @@ st.image("https://media.gettyimages.com/id/183881669/photo/house.jpg?s=612x612&w
 st.write("The project aims at building a model of housing prices to predict median house values in California using the provided dataset. This model should learn from the data and be able to predict the median housing price in any district, given all the other metrics.")
 
 st.header('Model of housing prices to predict median house values in California ',divider=True)
-"""
+
 st.subheader('''User Must Enter Given values to predict Price:
 ['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population', 'AveOccup']''')
-"""
+
 st.sidebar.title("select house features")
 st.sidebar.image("https://media.istockphoto.com/id/1442148484/photo/3d-rendering-of-modern-suburban-house-in-the-garden.jpg?s=612x612&w=0&k=20&c=8Iu_h5cFOEnlPz4_n2nfSUtOyfM_a-hHx9rmlxMF2rI=")
 all_values = []
